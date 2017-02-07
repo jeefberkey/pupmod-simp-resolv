@@ -45,7 +45,7 @@ class resolv (
   Integer                    $timeout        = 2,
   Integer                    $attempts       = 2,
   Boolean                    $named_server   = false,
-  Boolean                    $named_autoconf = true,
+  Boolean                    $named_autoconf = false,
   Boolean                    $caching        = true
 ) {
 
